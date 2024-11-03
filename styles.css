@@ -1,0 +1,94 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: white; 
+    color: #333; 
+}
+
+header {
+    background-color: #6a0dad; 
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;  
+    display: flex;
+    gap: 20px;
+}
+
+.logo {
+    max-width: 200px; 
+    margin-right: 20px; 
+    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px 40px;
+    color: black;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+      
+}
+
+.produtos {
+    display: flex; 
+    gap: 30px;
+}
+
+.produto {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 20px; 
+    font-size: 28px;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;   
+    
+}
+.produto img {
+    max-width: 100%; 
+    height: auto; 
+    
+}
+
+button {
+    background-color: #6a0dad; 
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px auto; 
+    display: block; 
+
+}
+
+button:hover {
+    background-color: #5e0c9c; 
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #6a0dad; 
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
